@@ -3,15 +3,15 @@
 Lecteur de musique local, rapide et sobre, disponible sur Linux, Windows et
 macOS.
 
-Vibe lit votre bibliothèque là où elle se trouve : vous désignez un ou plusieurs
-dossiers, rien n'est copié ni modifié. Les pochettes, les albums et les
-compilations sont reconnus, la lecture s'enchaîne sans blanc entre les morceaux,
-et les touches média du système fonctionnent.
+Vibe lit votre bibliothèque directement dans vos dossiers, sans jamais copier ni
+modifier un fichier. Le scan est récursif et incrémental, les pochettes, les
+albums et les compilations sont reconnus, et la lecture s'enchaîne sans blanc
+entre les morceaux.
 
-Le moteur audio est écrit en Rust et lit les mêmes formats sur les trois
+Le moteur audio est écrit en Rust et traite les mêmes formats sur les trois
 systèmes : MP3, FLAC, OGG, M4A/AAC, ALAC, WAV et AIFF. S'y ajoutent les paroles
 synchronisées, la correction des métadonnées, la reconnaissance d'un morceau au
-son, et un accent d'interface qui suit la pochette en cours.
+son et l'intégration aux touches média du système.
 
 ## Télécharger
 
@@ -47,10 +47,10 @@ chmod +x Vibe_*.AppImage
 ./Vibe_*.AppImage
 ```
 
-**Windows** — lancez l'installeur. Si un avertissement SmartScreen s'affiche,
+**Windows** : lancez l'installeur. Si un avertissement SmartScreen s'affiche,
 choisissez « Informations complémentaires » puis « Exécuter quand même ».
 
-**macOS** — ouvrez le `.dmg` et glissez Vibe dans Applications. Au premier
+**macOS** : ouvrez le `.dmg` et glissez Vibe dans Applications. Au premier
 lancement, faites un clic droit sur l'application puis « Ouvrir ».
 
 ## Configuration requise
@@ -61,5 +61,5 @@ lancement, faites un clic droit sur l'application puis « Ouvrir ».
 
 ---
 
-Par **Corneille BANKOLE** — [corneille.vercel.app](https://corneille.vercel.app/)
+Par **Corneille BANKOLE** · [corneille.vercel.app](https://corneille.vercel.app/)
 · [GitHub](https://github.com/Corneille9)
